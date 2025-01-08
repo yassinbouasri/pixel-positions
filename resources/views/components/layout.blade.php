@@ -27,7 +27,7 @@
             </div>
         </nav>
 
-        <main class="py-10">
+        <main class="py-10 max-w-[986px] mx-auto">
             {{ $slot }}
         </main>
     </div>
