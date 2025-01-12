@@ -49,8 +49,10 @@
         </main>
     </div>
 
-    <x-forms.form method="POST" action="/logout" id="logout-form" class="hidden">
-    </x-forms.form>
+    <form method="POST" action="/logout" id="logout-form" class="hidden">
+        @csrf
+        @method('DELETE')
+    </form>
 
 
 </body>
