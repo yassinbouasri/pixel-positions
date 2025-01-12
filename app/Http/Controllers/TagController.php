@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Job;
 use App\Models\Tag;
 
 class TagController extends Controller
